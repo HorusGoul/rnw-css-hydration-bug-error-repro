@@ -29,10 +29,5 @@
   "engines": {
     "node": ">=16"
   },
-  "sideEffects": false,
-  "pnpm": {
-    "patchedDependencies": {
-      "react-dom@18.2.0": "patches/react-dom@18.2.0.patch"
-    }
-  }
+  "sideEffects": false
 }
