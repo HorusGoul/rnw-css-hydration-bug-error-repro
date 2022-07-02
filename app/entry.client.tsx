@@ -1,6 +1,6 @@
 import { RemixBrowser } from "@remix-run/react";
 // @ts-ignore
-import { hydrateRoot } from "react-dom";
+import { hydrateRoot } from "react-dom/client";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRegistry } from "react-native";
 import { ReactNativeStylesContext } from "./rn-styles";
