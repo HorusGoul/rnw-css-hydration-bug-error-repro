@@ -8,5 +8,5 @@ module.exports = {
   serverBuildDirectory: "build",
   devServerPort: 8002,
   ignoredRouteFiles: [".*"],
-  serverDependenciesToBundle: ["react-native"],
+  serverDependenciesToBundle: [/^react-native.*/],
 };
