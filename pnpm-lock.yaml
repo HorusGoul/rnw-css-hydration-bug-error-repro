@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  react-dom@18.2.0:
+    hash: qssmz7dwq362p5zr2s7hvjeovy
+    path: patches/react-dom@18.2.0.patch
+
 specifiers:
   '@remix-run/dev': ^1.6.3
   '@remix-run/node': ^1.6.3
@@ -24,7 +29,7 @@ dependencies:
   '@remix-run/vercel': 1.6.3_rspynfeqjfrhxtnwgijvmj5aeu
   '@vercel/node': 2.3.3
   react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
+  react-dom: 18.2.0_qssmz7dwq362p5zr2s7hvjeovy_react@18.2.0
   react-native: /react-native-web/0.18.2_biqbaboplfbrettd7655fr4n2y
   react-native-web: 0.18.2_biqbaboplfbrettd7655fr4n2y
   remix: 1.6.3
@@ -1479,7 +1484,7 @@ packages:
     dependencies:
       history: 5.3.0
       react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      react-dom: 18.2.0_qssmz7dwq362p5zr2s7hvjeovy_react@18.2.0
       react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
     dev: false
 
@@ -1509,7 +1514,7 @@ packages:
       cookie: 0.4.2
       jsesc: 3.0.2
       react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      react-dom: 18.2.0_qssmz7dwq362p5zr2s7hvjeovy_react@18.2.0
       react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
       set-cookie-parser: 2.5.0
       source-map: 0.7.4
@@ -5468,7 +5473,7 @@ packages:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  /react-dom/18.2.0_react@18.2.0:
+  /react-dom/18.2.0_qssmz7dwq362p5zr2s7hvjeovy_react@18.2.0:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
@@ -5476,6 +5481,7 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    patched: true
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -5494,7 +5500,7 @@ packages:
       postcss-value-parser: 4.2.0
       prop-types: 15.8.1
       react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      react-dom: 18.2.0_qssmz7dwq362p5zr2s7hvjeovy_react@18.2.0
       styleq: 0.1.2
     transitivePeerDependencies:
       - encoding
@@ -5508,7 +5514,7 @@ packages:
     dependencies:
       history: 5.3.0
       react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      react-dom: 18.2.0_qssmz7dwq362p5zr2s7hvjeovy_react@18.2.0
       react-router: 6.3.0_react@18.2.0
 
   /react-router/6.3.0_react@18.2.0:
